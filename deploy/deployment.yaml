@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-securityContext:
-  runAsNonRoot: true
-  runAsUser: 10000
-  runAsGroup: 10000
-  seccompProfile:
-    type: RuntimeDefault
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 10000
+    runAsGroup: 10000
+    seccompProfile:
+      type: RuntimeDefault
   selector:
     matchLabels:
       app: nginx
