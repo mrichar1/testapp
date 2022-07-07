@@ -1,0 +1,11 @@
+apiVersion: v1
+version: 0.0.1
+appVersion: 0.0.1
+name: testapp
+description: A random test app
+home: https://github.com/mrichar1/tetsapp
+maintainers:
+- email: mrichar1@ed.ac.uk
+  name: mrichar1
+sources:
+- https://github.com/mrichar1/testapp
